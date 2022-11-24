@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    overflow: auto;
+}
+.outerBox{
+    padding:0px 360px;
+    width: 1200px;
+}
+.innerBox{
+    position: relative;
+}
+/*****/
+footer{
+    display: block;
+    position: relative;
+    margin: 0;
+    width:1920px;
+    text-align: center;
+    background: #415165;
+    color: white;
+}
+.footerTitleH2{
+    position: relative;
+    display: inline;
+    font-size: 32px;
+    font-weight: 450;
+    font-family:'PingFang TC';    
+    margin-top:40px;
+}
+.footerTitleH3{
+    position: relative;
+    margin-left: 16px;
+    display: inline;
+    color: white;
+    vertical-align:5px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family:'SF Pro Text';
+}
+/******/
+.innerBox:nth-child(3){
+    margin-top:64px;
+}
+.fourth.innerBox{
+    margin-top:64px;
+}
+.nameH1{
+    position: relative;
+    text-align: left;
+    font-size:80px;
+    font-weight: 50;
+    font-family: 'SF Pro Text';
+    letter-spacing: 0px;
+    width: 274px;
+    height: 190px;
+}
+hr{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.headPhoto{
+    position: relative;
+    padding:30px 0px;
+}
+
+.titleH2{
+    position: relative;
+    display: inline;
+    font-size: 32px;
+    font-weight: 450;
+    font-family:'PingFang TC';  
+}
+.titleH3{
+    position: relative;
+    margin-left: 16px;
+    display: inline;
+    color: #A00404;
+    vertical-align:5px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family:'SF Pro Text';
+}
+.innerBox p{
+    position: relative;
+    font: normal normal 300 24px/36px 'PingFang TC';
+}
+/*****/
+.firstFooter{
+   margin-top:64px;
+   height: 400px;
+   padding: 30px 0px;
+}
+.firstFooter hr{
+    border: 0.5px solid white;
+    width: 50%;
+}
+.firstFooter .textBox {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin:25px 0px;
+}
+.firstFooter .textBox ul{
+    position: relative;  
+    border-left: 1px solid #96A9C4;
+}
+.firstFooter .textBox li{
+    font: normal normal 300 24px/36px 'SF Pro Text';
+    list-style-type: none;
+    line-height:40px;
+}
+/******/
+.fourth.innerBox .textBox{
+    margin-top: 16px;
+    margin-left: 20px;
+    position: relative;  
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    height: 665px;
+}
+.fourth.innerBox .textBox p{
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 450;
+    font-family:'PingFang TC';
+
+}
+.fourth.innerBox .textBox p:first-child{
+    margin: 0 0;
+}
+.fourth.innerBox .textBox p:nth-child(7){
+    margin: 0 0;
+}
+.fourth.innerBox .textBox img{
+    margin-bottom: 0px;
+}
+.fourth.innerBox span{
+    display: block;
+    width: 642px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family:'PingFang TC';
+    line-height: 30px;
+}
+.fourth.innerBox span:last-child{
+    width: 400px;
+    height: 30px;
+}
+/*****/
+.bottomFooter{
+    margin-top:64px;
+    height: 400px;
+    padding: 30px 0px;
+ }
+ .bottomFooter hr{
+     border: 0.5px solid white;
+     width: 62.5%;
+ }
+ .bottomFooter p{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin:25px 0px;
+     font: normal normal 300 24px/36px 'SF Pro Text';
+ }
+ .bottomFooter img{
+    margin: 0px 12px;
+ }
+
+ h2:hover{
+    color: #415165;
+ }
+
+/*
+ h2,h3 ::before {
+    content: "";
+    background-color: #8ea7c6;
+    transition: 0.4s ease-out;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+}
+  
+h2,h3 :hover::before {
+    width: 100%;
+}
+ */ 
