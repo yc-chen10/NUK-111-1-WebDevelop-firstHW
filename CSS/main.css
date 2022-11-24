@@ -6,8 +6,13 @@ body{
     padding:0px 360px;
     width: 1200px;
 }
-.innerBox{
-    position: relative;
+li{
+    transition: 0.2s ease;
+}
+li:hover{
+    background: white;
+    color: #415165;
+    
 }
 /*****/
 footer{
@@ -62,8 +67,11 @@ hr{
 .headPhoto{
     position: relative;
     padding:30px 0px;
+    transition: 0.5s linear;
 }
-
+.headPhoto:hover{
+    opacity: 0.5;
+}
 .titleH2{
     position: relative;
     display: inline;
@@ -164,28 +172,19 @@ hr{
      text-align: center;
      margin:25px 0px;
      font: normal normal 300 24px/36px 'SF Pro Text';
+     transition: 0.3s linear;
+ }
+ .bottomFooter p:hover{
+    text-shadow:1px 7px 4px rgba(0, 0, 0, 0.7);    
+    
  }
  .bottomFooter img{
     margin: 0px 12px;
- }
-
- h2:hover{
-    color: #415165;
- }
-
-/*
- h2,h3 ::before {
-    content: "";
-    background-color: #8ea7c6;
-    transition: 0.4s ease-out;
-    width: 0%;
-    height: 2px;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
+    transition: 0.3s linear;
 }
-  
-h2,h3 :hover::before {
-    width: 100%;
-}
- */ 
+ .bottomFooter img:hover{
+    filter:drop-shadow(1px 7px 4px rgba(0, 0, 0, 0.7));    
+    
+ }
+ 
+
